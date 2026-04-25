@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #343a40;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  /* Card Styles */
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  /* Accordion Styles */
+  .accordion-button {
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: #e9ecef;
+    color: #343a40;
+  }
+  
+  .accordion-body {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
